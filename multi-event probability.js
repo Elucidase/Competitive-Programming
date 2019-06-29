@@ -30,10 +30,11 @@ function probDstr(pEvents) {
   return result;
 }
 
-//Example
+//Example, probability of each individual event
 const pEvents = [0.96, 0.7, 0.5, 0.8, 0.95, 0.8, 0.9, 0.7];
 probDstr(pEvents);
-/*expected output: [
+/*expected output, a possibility distribution table of number of events that would happen:
+[
 0:	3.6000000000000047e-7
 1:	0.00002364000000000002
 2:	0.0005850400000000001
@@ -42,5 +43,6 @@ probDstr(pEvents);
 5:	0.16314604000000005
 6:	0.32545216
 7:	0.32980416
-8:	0.12870144]
+8:	0.12870144
+]
 */
