@@ -1,5 +1,5 @@
 # Implementing SA-IS algorithm
-SA-IS is an algorithm that builds a suffix array in `O(m)` time, where m is the size of input string. I find the [Stanford CS166 slides](http://web.stanford.edu/class/cs166/lectures/04/Small04.pdf) especially helpful for understanding it. There aren't many implementations of it on platforms like Codeforces or Codechef, and many people seem to go with the `O(m(logm)^2)` radix-sort approach to build the suffix array, as illustrated in [CP-algorithms](https://cp-algorithms.com/string/suffix-array.html). I found SA-IS quite elegant, and its length of implementation can be made comparable to that of the radix-sort approach. Hence this blog.
+SA-IS is an algorithm that builds a suffix array in `O(m)` time, where `m` is the size of input string. I find the [Stanford CS166 slides](http://web.stanford.edu/class/cs166/lectures/04/Small04.pdf) especially helpful for understanding it. There aren't many implementations of it on platforms like Codeforces or Codechef, and many people seem to go with the `O(m(logm)^2)` radix-sort approach to build the suffix array, as illustrated in [CP-algorithms](https://cp-algorithms.com/string/suffix-array.html). I found SA-IS quite elegant, and its length of implementation can be made comparable to that of the radix-sort approach. Hence this blog.
 
 ```cpp
 #include <bits/stdc++.h>
