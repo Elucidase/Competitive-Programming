@@ -1,2 +1,1 @@
-# Competitive programming blogs by Ka Yu Wong
-Sharing understandings about some topics in competitive programming!
+# Algorithm blogs by Ka Yu Wong
